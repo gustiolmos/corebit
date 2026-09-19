@@ -540,6 +540,12 @@ nav.scrolled {
   gap: 20px;
 }
 
+.team-grid-solo {
+  grid-template-columns: 1fr;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
 .team-card {
   background: var(--bg-2);
   border: 1px solid var(--border);
